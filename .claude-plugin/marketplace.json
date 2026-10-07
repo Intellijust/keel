@@ -1,0 +1,17 @@
+{
+  "name": "keel-harness",
+  "metadata": {
+    "description": "Keel — a development harness that steers coding agents toward high-quality software."
+  },
+  "owner": {
+    "name": "Intellijust",
+    "url": "https://github.com/Intellijust"
+  },
+  "plugins": [
+    {
+      "name": "keel",
+      "description": "Contract-first development harness for coding agents: agree the behaviour, plan it, build it test-first, prove it with real command output, then have it adversarially reviewed.",
+      "source": "./"
+    }
+  ]
+}

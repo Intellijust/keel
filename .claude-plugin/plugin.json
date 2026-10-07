@@ -1,0 +1,10 @@
+{
+  "name": "keel",
+  "version": "0.4.0",
+  "description": "A development harness that steers coding agents toward high-quality software. Behaviour is agreed as a written contract before code exists, built test-first outside-in, proven with real command output rather than claims, reconciled against drift, and adversarially reviewed before it ships.",
+  "author": {
+    "name": "Intellijust"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Intellijust/keel"
+}

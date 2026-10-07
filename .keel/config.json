@@ -1,0 +1,24 @@
+{
+  "contracts": "contracts",
+  "commands": {
+    "lint": "node --check scripts/keel.mjs",
+    "test": "node --test \"scripts/**/*.test.mjs\""
+  },
+  "surfaces": [
+    {
+      "name": "engine",
+      "root": "scripts",
+      "tests": "scripts/**/*.test.mjs"
+    }
+  ],
+  "unknowns": {
+    "paths": [
+      "MENTAL_MODEL.md",
+      "contracts"
+    ],
+    "note": "docs/ is deliberately excluded here: the doctrine documents the UNKNOWN format with examples, and the scanner cannot tell documentation about the marker from a use of it."
+  },
+  "review": {
+    "model": "fable"
+  }
+}
